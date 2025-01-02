@@ -1,4 +1,2 @@
-# MD-Simulations-of-RNA-molecule
-Here I will give a step by step process on how to simulate an RNA molecule "8vfs". 
-8vfs is a "oppF ROSE-like RNA thermometer structure" 
-The literature on 8vfs is yet to be published and I will upload it as soon as I get updated about it.
+# MD Simulations of RNA molecule and Protein Complex
+Here I will give a step by step methodology on how to simulate an "8vfs" and "NSP3 complex". 8vfs is a "oppF ROSE-like RNA thermometer structure". RNA thermometers are regulatory RNA elements that modulate gene expression in response to temperature changes. The NSP3 complex is a protein complex that plays a crucial role in viral replication and host interaction in some viruses, particularly coronaviruses. We will study RMSD, RMSF, RG, Hydrogen Bonding, Cluster analysis,etc.
