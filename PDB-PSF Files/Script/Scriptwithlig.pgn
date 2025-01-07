@@ -1,0 +1,20 @@
+package require psfgen
+topology top_all22_prot_cmap.inp
+topology Lig.rtf
+pdbalias residue HIS HSE
+pdbalias atom ILE CD1 CD
+segment A {
+first NONE
+last NONE
+pdb Apo-NSP3.pdb
+}
+coordpdb Apo-NSP3.pdb A
+segment LIG {
+first NONE
+last NONE
+pdb Lig.pdb
+}
+coordpdb Lig.pdb LIG
+guesscoord
+writepsf Complex.psf
+writepdb Complex.pdb
