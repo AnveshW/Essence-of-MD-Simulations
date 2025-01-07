@@ -1,26 +1,41 @@
 # MD Simulations of RNA molecule and Protein Complex
-Here I will give a step by step methodology on how to simulate an "8vfs" and "NSP3 complex". 8vfs is a "oppF ROSE-like RNA thermometer structure". RNA thermometers are regulatory RNA elements that modulate gene expression in response to temperature changes. The NSP3 complex is a protein complex that plays a crucial role in viral replication and host interaction in some viruses, particularly coronaviruses. This will include Energy minimization, Heating of complexes, Taking system to equilibrium stage, RMSD, RMSF, RG, Hydrogen Bonding, Cluster analysis, Salt bridge analysis, Linear Interaction Energy,  Molecular Mechanics Poisson-Boltzmann Surface Area (MMPBSA) etc.
+
+This repository provides a detailed step-by-step methodology for simulating the 8vfs RNA molecule and the NSP3 protein complex. These simulations aim to study the structural dynamics and functional interactions of these macromolecules.
+8vfs: A "oppF ROSE-like RNA thermometer structure." RNA thermometers are regulatory RNA elements that modulate gene expression in response to temperature changes.
+NSP3 Complex: NSP3 is a multifunctional protein encoded by the SARS-CoV-2 genome.
+
+# The workflow includes the following stages:
+- Energy Minimization
+- Heating of Complexes
+- System Equilibration
+- Structural and Interaction Analysis: RMSD, RMSF, Radius of Gyration, Hydrogen Bonding, Cluster Analysis, Salt Bridge Analysis
+- Energy Calculations: Linear Interaction Energy (LIE) and Molecular Mechanics Poisson-Boltzmann Surface Area (MMPBSA)
+  
 # Tools and Pre-Requisites
-These are the pre-requisites used for performing simulations and analysing data
-- Protein Data Bank
-- SPDBV
-- VMD
-- NAMD
-- Biovia Discovery Studio
-- Gromacs
-- Vega_ZZ
-- Chimera
-- Notepad++
-- Microsoft Excel
+The following tools are required for performing simulations and analyzing data:
+- Protein Data Bank (PDB): For structural data acquisition
+- SPDBV: Structure preparation and visualization
+- VMD: Visualization and analysis of trajectories
+- NAMD: Molecular dynamics simulation engine
+- Biovia Discovery Studio: Structure refinement and preparation
+- GROMACS: Molecular dynamics simulation and analysis
+- Vega ZZ: Molecular modeling and analysis
+- Chimera: Ligand Parameterization
+- Notepad++: Editing configuration and input files
+- Microsoft Excel: Data organization and visualization
+  
 # 8vfs:
 ![8vfs](https://github.com/user-attachments/assets/094e01b6-44ad-413e-9707-3fac3bdb998d)
 >8VFS|Chains A, B|RNA (27-MER)|Providencia stuartii (588)
 AGCUUGCUUUAAGCCGCUGGAGGAGCU
 # NSP3 Complex:
 ![Apo-NSP3](https://github.com/user-attachments/assets/7e32046a-98f7-4cdf-bacf-34ed30e4c90f)
->pdb:B
+>NSP3
 SMVNSFSGYLKLTDNVYIKNADIVEEAKKVKPTVVVNAANVYLKHGGGVAGALNKATNNAMQVESDDYIATNGPLKVGGSCVLSGHNLAKHCLHVVGPNVNKGEDIQLLKSAYENFNQHEVLLAPLLSAGIFGADPIHSLRVCVDTVRTNVYLAVFDKNLYDKLVSSFL
-# NSP3 Complex with Ligand:
+# NSP3 Complex with Ligand 7a:
 ![image](https://github.com/user-attachments/assets/6f837c03-9ac0-4783-b62f-8eab38db3cdc)
+# Ligand 7a:
+![image](https://github.com/user-attachments/assets/0bfa5553-fdc4-4751-87f4-19b49a8b650a)
+>1,3,5-triaryl-2-pyrazoline
 
 
