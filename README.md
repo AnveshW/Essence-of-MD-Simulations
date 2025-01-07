@@ -13,16 +13,16 @@ NSP3 Complex: NSP3 is a multifunctional protein encoded by the SARS-CoV-2 genome
   
 # Tools and Pre-Requisites
 The following tools are required for performing simulations and analyzing data:
-- Protein Data Bank (PDB): For structural data acquisition
-- SPDBV: Structure preparation and visualization
-- VMD: Visualization and analysis of trajectories
-- NAMD: Molecular dynamics simulation engine
-- Biovia Discovery Studio: Structure refinement and preparation
-- GROMACS: Molecular dynamics simulation and analysis
-- Vega ZZ: Molecular modeling and analysis
-- Chimera: Ligand Parameterization
-- Notepad++: Editing configuration and input files
-- Microsoft Excel: Data organization and visualization
+- Protein Data Bank (PDB)
+- SPDBV
+- VMD
+- NAMD
+- Biovia Discovery Studio
+- GROMACS
+- Vega ZZ
+- Chimera
+- Notepad++
+- Microsoft Excel
   
 # 8vfs:
 ![8vfs](https://github.com/user-attachments/assets/094e01b6-44ad-413e-9707-3fac3bdb998d)
