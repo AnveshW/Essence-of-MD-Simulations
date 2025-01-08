@@ -1,2 +1,2 @@
-Complexes was solvated, box was created from a distance of 5 Ǻ from the last compound.
+Complexes was solvated, water box was created from a distance of 5 Ǻ from the last compound.
 The command file is attached. Solvated Products are 'wb' files.
