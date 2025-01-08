@@ -1,0 +1,8 @@
+Package require solvate
+solvate complex.psf complex.pdb -t 5 –o complex_wb
+
+proceed for ionization step
+
+set everyone [atomselect top all]
+measure minmax $everyone
+measure center $everyone
