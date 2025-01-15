@@ -1,0 +1,20 @@
+loading history file ... 17 events added
+Main console display active (Tcl8.5.6 / Tk8.5.6)
+(VMD) 18 % dir
+.:
+cudart32_40_17.dll  doc                 ionized.pdb         ionized.psf
+ligandtrajrmsd.dat  plugins             proteins            scripts
+shaders             stride_WIN32.exe    surf_WIN32.exe      tachyon_WIN32.exe
+tcl85.dll           tcldde13.dll        tclpip85.dll        tclreg12.dll
+tk85.dll            trajrmsd.dat        trajrmsd1.dat       trajrmsd11.dat
+vmd.exe             vmd.rc
+>Main< (VMD) 19 % cd .
+>Main< (VMD) 20 % cd ..
+>Main< (University of Illinois) 21 % cd C:/Users/ASUS/Downloads/MD-Workshop/Day1-Only-Protein/2PDB-PSF/Script/8v23
+>Main< (8v23) 22 % set everyone [atomselect top all]
+atomselect0
+>Main< (8v23) 23 % measure minmax $everyone
+{-36.720001220703125 -26.172000885009766 -38.93600082397461} {15.336000442504883 36.31700134277344 14.61400032043457}
+>Main< (8v23) 24 % measure center $everyone
+-10.61143970489502 5.287364482879639 -12.083353042602539
+>Main< (8v23) 25 % 
