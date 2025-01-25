@@ -1,8 +1,5 @@
-# MD Simulations of RNA molecule and Protein Complex
-
-This repository provides a detailed step-by-step methodology for simulating the 8vfs RNA molecule and the NSP3 protein complex. These simulations aim to study the structural dynamics and functional interactions of these macromolecules.
-8vfs: A "oppF ROSE-like RNA thermometer structure." RNA thermometers are regulatory RNA elements that modulate gene expression in response to temperature changes.
-NSP3 Complex: NSP3 is a multifunctional protein encoded by the SARS-CoV-2 genome.
+# MD Simulations: 
+I learned how to simulate protein complexes, protein-ligand complexes. This repository contains differenet proteins and protein complexes with the associated files which I have been working on. Since my primary interest lies in genome editing I was trying to simulate sgRNA's with different Cas Proteins, trying to check the stability of compounds. This will allow me to understand the stability of complex and help me in increasing the accuracy of CRISPR- Cas Systems.
 
 # The workflow includes the following stages:
 - Energy Minimization
@@ -24,10 +21,10 @@ The following tools are required for performing simulations and analyzing data:
 - Notepad++
 - Microsoft Excel
   
-# 8vfs:
-![8vfs](https://github.com/user-attachments/assets/094e01b6-44ad-413e-9707-3fac3bdb998d)
->8VFS|Chains A, B|RNA (27-MER)|Providencia stuartii (588)
-AGCUUGCUUUAAGCCGCUGGAGGAGCU
+# 8v23:
+![image](https://github.com/user-attachments/assets/380beee8-10cd-4a3e-a89d-2f70662445e4)
+>8v23
+PIVQNLQGQMVHQAISPRTLNAWVKVVEEKAFSPEVIPMFSALSEGATPQDLNTMLNTVGGHQAAMQMLKETINEEAAEWDRLHPVHAGPIAPGQMREPRGSDIAGTTSTLQEQIGWMTHNPPIPVGEIYKRWIILGLNKIVRMYS
 # NSP3 Complex:
 ![Apo-NSP3](https://github.com/user-attachments/assets/7e32046a-98f7-4cdf-bacf-34ed30e4c90f)
 >NSP3
