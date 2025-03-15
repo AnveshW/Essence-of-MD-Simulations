@@ -1,5 +1,8 @@
 # MD Simulations: 
-I learned how to simulate protein complexes, protein-ligand complexes. This repository contains differenet proteins and protein complexes with the associated files which I have been working on. Since my primary interest lies in genome editing I am currently reading on simulations of sgRNA's with different Cas Proteins, trying to check the stability of compounds, and increasing overall accuracy of sgRNA-Cas9 complex.This repository contains some complexes on which I have performed computational calculation tasks such as Energy Minimization, Heating of Complexes, System Equilibration, Structural and Interaction Analysis: RMSD, RMSF, Radius of Gyration, Hydrogen Bonding, etc.
+I learned how to simulate protein complexes, protein-ligand complexes. This repository contains differenet proteins and protein complexes with the associated files which I have been working on. This repository contains some complexes on which I have performed computational calculation tasks such as Energy Minimization, Heating of Complexes, System Equilibration, Structural and Interaction Analysis: RMSD, RMSF, Radius of Gyration, Hydrogen Bonding, etc.
+This repository is under work and will be updated with remaining files as soon as possible.
+
+P.S. Since my primary interest lies in genome editing I am currently reading on simulations of sgRNA's with different Cas Proteins, trying to check the stability of compounds, and increasing overall accuracy of sgRNA-Cas9 complex.
 
 # The workflow includes the following stages:
 - Energy Minimization
